@@ -14,6 +14,7 @@ export function Recorder({mediaRecorder}) {
   }
 
   mediaRecorder.ondataavailable = (element) => {
+   console.log(element)
    setChunks(current => [...current, element.data])
   }
 
