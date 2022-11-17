@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export function VolumeChecker({stream}) {
     const [volume, setVolume] = useState(0)
